@@ -48,4 +48,7 @@ public class AddMoney_Activity extends AppCompatActivity{
             }
         });
     }
+    public void A(){
+
+    }
 }
