@@ -84,7 +84,5 @@ public class Home_Activity extends AppCompatActivity {
         });
     }
 
-    public void B(){
-
-    }
+   
 }
