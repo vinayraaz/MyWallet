@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/layout_design"
+                android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:text="9876543210"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/layout_design"
+                android:drawableLeft="@drawable/ic_rupee"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:text="100"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/layout_design"
+                android:drawableLeft="@drawable/desc"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:text="Optional Discription"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/success_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_design">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/alise_blue"
+                android:gravity="center"
+                android:text="Proceed"
+                android:textColor="@color/text_white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
