@@ -257,6 +257,7 @@
                 android:textSize="18px"/>
         </LinearLayout>-->
         <LinearLayout
+            android:id="@+id/user_profile_linear"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".25"
