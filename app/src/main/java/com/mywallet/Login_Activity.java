@@ -112,7 +112,7 @@ public class Login_Activity extends AppCompatActivity {
             public void onResponse(Call<FeedResponse> call, Response<FeedResponse> response) {
                 Gson gson = new Gson();
                 System.out.println("ResponseFeed**"+gson.toJson(response.body()));
-                System.out.println("ResponseFeed**"+response.body().getData().size());
+//                System.out.println("ResponseFeed**"+response.body().getData().size());
             }
 
             @Override

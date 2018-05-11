@@ -30,7 +30,7 @@ public class Landing_Activity extends AppCompatActivity {
         Get_Start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Landing_Activity.this,Login_Activity.class);
+                Intent intent=new Intent(Landing_Activity.this,SendMoney_Activity.class);
                 startActivityForResult(intent,0);
                 overridePendingTransition( R.anim.slide_up_animation, R.anim.slide_down_animation );
             }
